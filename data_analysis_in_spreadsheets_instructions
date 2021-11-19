@@ -1,3 +1,4 @@
+Chapter 1:
 First function - ROUND
 - In C2, fill in a formula that rounds the value in B2 to the nearest integer. Don't forget to start the formula with a =. 
     You should use the ROUND function discussed before, and pass it the reference as an argument.			
