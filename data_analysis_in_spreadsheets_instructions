@@ -1,0 +1,57 @@
+First function - ROUND
+- In C2, fill in a formula that rounds the value in B2 to the nearest integer. Don't forget to start the formula with a =. 
+    You should use the ROUND function discussed before, and pass it the reference as an argument.			
+- Copy the value of C2 down to C13. 
+    You can do so by dragging your mouse from the lower right corner of C2 to C13. 
+    The values in C2:C13 should all be filled in and contain the rounded values of B2:B13.				
+
+Function composition - SQRT
+- In C2:C13, fill in the SQRT of the values in B. You can start with C2 and copy the values downward.				
+- In D2:D13, fill in the rounded values of C.				
+- Note that you needed 2 columns to find the rounded square root. 
+    In E2:E13, fill in the rounded square root of the values in B, by using function composition. 
+    This way you only use 1 column. The values should be the same as in D2:D12.				
+
+Functions and ranges - MIN, MAX
+- In B15, calculate the minimum value in B2:B13. Use the MIN function, which can be used with ranges. 
+    Don't forget to start your formula with =.				
+- In B16, calculate the maximum value in B2:B13. Use the MAX function, which also accepts ranges as arguments.				
+
+Selecting ranges - SUM, AVERAGE, MEDIAN
+- In C2:C13, fill in the SQRT of the values in B. You can start with C2 and copy the values downward.				
+- In D2:D13, fill in the rounded values of C.				
+- Note that you needed 2 columns to find the rounded square root. 
+    In E2:E13, fill in the rounded square root of the values in B, by using function composition. 
+    This way you only use 1 column. The values should be the same as in D2:D12.				
+
+Multiple arguments - RANK
+- In C2, find out the rank of B2 in the following range: B2:B13.				
+- Make B2:B13 an absolute reference in C2. You can do this by hand, or by selecting the range and hitting F4.
+- Copy the value of C2 down to C13 to get the ranks of all sales. This will only work if you followed the second instruction correctly.				
+
+Even more arguments - RANK
+- In C2, fill in the rank of B2 in B2:B13, considered in an ascending order. 
+    Don't forget to use an absolute reference as you did in the previous exercise!			
+- Copy the value of C2 until C13.				
+- "Fill in D2:D13, checking whether the rank in column C is smaller than or equal to 2, to find the worst 2 months. 
+    You can use the comparison operator: ... <= ... (fill in the dots).
+    Your output should contain TRUE or FALSE based on the comparison in each cell."		
+    
+String manipulation - LEFT, RIGHT
+- You need to be able to identify each movie using a maximum of 4 characters, so you create a new column: movie id. 
+    In E2:E11, try to take the last 4 characters of the movies in A. 
+    Use RIGHT here. Does the result make a lot of sense?
+- In F2:F11, try to take the first 4 characters of the movies in A. 
+    Use LEFT here. This seems to make a bit more sense.
+
+String information - LEN, SEARCH
+- In E2:E11, find the number of characters in the directors' names using LEN.
+- In F2:F11, find the position of the space in the directors' names using SEARCH.
+- In G2:G11, find the number of characters in the directors' surnames by subtracting the values in F from the values in E.
+- In H2:H11, retrieve the directors' surnames using RIGHT and the number of characters in G.
+
+Combining strings - CONCATENATE
+- In F2:F11, fill in the first character of the first name of the directors. For example, F2 should contain R. Use LEFT to achieve this.
+- In G2:G11, the values should evaluate to the surname and the first character of the first name, with some punctuation. 
+    For example G2 should evaluate to Johnson R.. Use CONCATENATE to achieve this.
+
